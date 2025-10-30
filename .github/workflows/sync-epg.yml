@@ -1,32 +1,41 @@
-name: Sync EPG XML
+name: Sync EPG and MyTV
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 00:00 UTC 执行（北京时间为 08:00）
+    - cron: '0 0 * * *'  # 每天 00:00 UTC（北京时间 08:00）
   workflow_dispatch:      # 支持手动触发
 
 permissions:
-  contents: write  # ✅ 允许工作流写入仓库内容
+  contents: write  # 允许写入仓库
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Download pp.xml
+      - name: Download latest files
         run: |
+          echo "Downloading pp.xml..."
           curl -L -o pp.xml https://epg.112114.xyz/pp.xml
+          echo "Downloading MyTV.m3u..."
+          curl -L -o MyTV.m3u https://tv.iill.top/m3u/MyTV
 
-      - name: Check if file changed
+      - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add pp.xml
+
+          git add pp.xml MyTV.m3u
+
           if git diff --cached --quiet; then
-            echo "No changes, skipping commit."
+            echo "No changes detected, skipping commit."
             exit 0
           fi
-          git commit -m "Sync latest pp.xml from epg.112114.xyz"
-          git push
+
+          git commit -m "Sync latest pp.xml & MyTV.m3u - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          git push origin HEAD:main
