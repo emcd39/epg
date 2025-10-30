@@ -60573,6 +60573,9 @@
 	<programme channel="黑莓动画" start="20251030090200 +0800" stop="20251030092900 +0800">
 		<title lang="zh">01_世界陪我一起长大</title>
 	</programme>
+	<programme channel="黑莓动画" start="20251030092900 +0800" stop="20251030093800 +0800">
+		<title lang="zh">第2集：小行星撞水星儿歌</title>
+	</programme>
 	<channel id="黑莓电影">
 		<display-name lang="zh">黑莓电影</display-name>
 	</channel>
@@ -61005,6 +61008,9 @@
 	<programme channel="newtv超级电视剧" start="20251030085000 +0800" stop="20251030093600 +0800">
 		<title lang="zh">13_柳舟记</title>
 	</programme>
+	<programme channel="newtv超级电视剧" start="20251030093600 +0800" stop="20251030102200 +0800">
+		<title lang="zh">14_柳舟记</title>
+	</programme>
 	<channel id="newtv精品大剧">
 		<display-name lang="zh">NEWTV精品大剧</display-name>
 	</channel>
@@ -61172,6 +61178,9 @@
 	</programme>
 	<programme channel="newtv军旅剧场" start="20251030084800 +0800" stop="20251030092800 +0800">
 		<title lang="zh">营养健康20新</title>
+	</programme>
+	<programme channel="newtv军旅剧场" start="20251030092800 +0800" stop="20251030101400 +0800">
+		<title lang="zh">37_十送红军</title>
 	</programme>
 	<channel id="newtv家庭剧场">
 		<display-name lang="zh">NEWTV家庭剧场</display-name>
@@ -61386,6 +61395,9 @@
 	<programme channel="newtv怡伴健康" start="20251030085100 +0800" stop="20251030093100 +0800">
 		<title lang="zh">太空骨王骨胶原新版</title>
 	</programme>
+	<programme channel="newtv怡伴健康" start="20251030093100 +0800" stop="20251030101400 +0800">
+		<title lang="zh">55_红高粱</title>
+	</programme>
 	<channel id="newtv潮妈辣婆">
 		<display-name lang="zh">NEWTV潮妈辣婆</display-name>
 	</channel>
@@ -61503,6 +61515,9 @@
 	<programme channel="newtv军事评论" start="20251030090200 +0800" stop="20251030092900 +0800">
 		<title lang="zh">背水一战 绝地反击</title>
 	</programme>
+	<programme channel="newtv军事评论" start="20251030092900 +0800" stop="20251030095500 +0800">
+		<title lang="zh">重器护河山</title>
+	</programme>
 	<channel id="newtv炫舞未来">
 		<display-name lang="zh">NEWTV炫舞未来</display-name>
 	</channel>
@@ -61541,6 +61556,9 @@
 	</programme>
 	<programme channel="newtv炫舞未来" start="20251030084600 +0800" stop="20251030093100 +0800">
 		<title lang="zh">生活服务</title>
+	</programme>
+	<programme channel="newtv炫舞未来" start="20251030093100 +0800" stop="20251030095200 +0800">
+		<title lang="zh">民族风健身舞《孔雀飞来》（20231226）</title>
 	</programme>
 	<channel id="newtv精品综合">
 		<display-name lang="zh">NEWTV精品综合</display-name>
@@ -61581,6 +61599,9 @@
 	<programme channel="newtv精品综合" start="20251030082900 +0800" stop="20251030091700 +0800">
 		<title lang="zh">06_庆余年第二季</title>
 	</programme>
+	<programme channel="newtv精品综合" start="20251030091700 +0800" stop="20251030095700 +0800">
+		<title lang="zh">太空骨王骨胶原新版</title>
+	</programme>
 	<channel id="newtv惊悚悬疑">
 		<display-name lang="zh">NEWTV惊悚悬疑</display-name>
 	</channel>
@@ -61605,6 +61626,9 @@
 	<programme channel="newtv惊悚悬疑" start="20251030080400 +0800" stop="20251030092700 +0800">
 		<title lang="zh">重案行动之连环凶杀（普通话版）</title>
 	</programme>
+	<programme channel="newtv惊悚悬疑" start="20251030092700 +0800" stop="20251030100700 +0800">
+		<title lang="zh">营养健康20新</title>
+	</programme>
 	<channel id="newtv金牌综艺">
 		<display-name lang="zh">NEWTV金牌综艺</display-name>
 	</channel>
@@ -61625,6 +61649,9 @@
 	</programme>
 	<programme channel="newtv金牌综艺" start="20251030084000 +0800" stop="20251030093700 +0800">
 		<title lang="zh">令人心动的offer第4季</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20251030093700 +0800" stop="20251030101700 +0800">
+		<title lang="zh">虾青素推广片4001087099</title>
 	</programme>
 	<channel id="newtv精品体育">
 		<display-name lang="zh">NEWTV精品体育</display-name>
